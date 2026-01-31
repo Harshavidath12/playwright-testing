@@ -29,7 +29,7 @@ git clone https://github.com/Harshavidath12/playwright-testing.git
 2. Navigate to the project directory
 
 ```bash
-cd playwright-project
+cd playwright-testing
 ```
 
 3. Install dependencies
