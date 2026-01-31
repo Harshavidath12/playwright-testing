@@ -1,40 +1,63 @@
-Prerequisites
+## Tools & Technologies
+
+* Playwright – End-to-end test automation framework
+* Node.js – JavaScript runtime environment
+* JavaScript / TypeScript – Test scripting languages
+* Git & GitHub – Version control and repository hosting
+
+---
+
+
+## Prerequisites
+
 Ensure the following are installed on your system:
 
-Node.js (v18 or later recommended)
-Git
-A modern web browser (Chrome / Edge)
+* Node.js (v18 or later recommended)
+* Git
+* A modern web browser (Chrome / Edge)
 
-Installation
+---
 
-1) .Clone the repository
+## Installation
 
-git clone https://github.com/Harshavidath12/playwright-testing.git
+1. Clone the repository
 
-2) .Navigate to the project directory
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+```
 
+2. Navigate to the project directory
+
+```bash
 cd playwright-project
+```
 
-3) Install dependencies
+3. Install dependencies
 
- npm install
+```bash
+npm install
+```
 
-4) Install Playwright browsers
+4. Install Playwright browsers
 
+```bash
 npx playwright install
+```
 
-5) Running the Tests
+---
 
-To Run the positive.spec.js file : 
+## Running the Tests
 
-npx playwright test tests/positive.spec.js  
+Run all tests:
 
-To Run the negative.spec.js file :
+```bash
+npx playwright test
+```
 
-npx playwright test tests/negative.spec.js  
+Run a specific test file:
 
-To Run the ui.spec.js file :
+```bash
+npx playwright test tests/translator.spec.js
+```
 
-npx playwright test ui.spec.js --headed 
-
-
+---
