@@ -23,7 +23,7 @@ Ensure the following are installed on your system:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Harshavidath12/playwright-testing.git
 ```
 
 2. Navigate to the project directory
@@ -48,16 +48,24 @@ npx playwright install
 
 ## Running the Tests
 
-Run all tests:
+Run positive.spec.js file:
 
 ```bash
-npx playwright test
+npx playwright test tests/positive.spec.js  
 ```
 
-Run a specific test file:
+Run negative.spec.js file:
 
 ```bash
-npx playwright test tests/translator.spec.js
+npx playwright test tests/negative.spec.js  
+```
+
+
+
+Run ui.spec.js file:
+
+```bash
+npx playwright test ui.spec.js --headed    
 ```
 
 ---
